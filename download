@@ -1,0 +1,26 @@
+# Local CART3R data: do not publish these computer-specific files
+cart3r_auth.json
+cart3r_device.json
+cart3r_activity.jsonl
+cart3r_activity.json
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment/configuration files
+.env
+.env.*
+
+# Build output
+build/
+dist/
+*.spec
+
+# Local backup copy of the script
+main-backup.py
